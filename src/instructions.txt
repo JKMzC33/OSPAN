@@ -1,0 +1,83 @@
+Witaj w badaniu Operation Span (OSPAN)
+
+Badanie mierzy pojemność pamięci roboczej –
+zdolność do przechowywania informacji podczas
+wykonywania innego zadania.
+
+Składa się z dwóch naprzemiennych zadań:
+oceniania równań matematycznych
+oraz zapamiętywania liter.
+
+Naciśnij SPACJĘ, aby przejść dalej.
+---
+ZADANIE 1: Równania matematyczne
+
+Na ekranie pojawi się działanie, np.:
+(3 × 4) = 12
+
+Twoim zadaniem jest ocenić,
+czy podany wynik jest PRAWDZIWY czy FAŁSZYWY,
+klikając odpowiedni przycisk myszą.
+
+Masz maksymalnie 10 sekund na odpowiedź.
+Staraj się odpowiadać szybko i dokładnie.
+
+Naciśnij SPACJĘ, aby przejść dalej.
+---
+ZADANIE 2: Zapamiętywanie liter
+
+Po każdym równaniu na ekranie pojawi się
+pojedyncza litera, np.:
+
+F
+
+Postaraj się zapamiętać ją oraz kolejność,
+w jakiej litery się pojawiają.
+
+Litera widoczna jest przez maksymalnie 5 sekund.
+Możesz przejść dalej wciskając SPACJĘ.
+
+Naciśnij SPACJĘ, aby przejść dalej.
+---
+ZADANIE 3: Przypominanie liter
+
+Po serii równań i liter zobaczysz siatkę liter.
+
+Klikaj zapamiętane litery W KOLEJNOŚCI,
+w jakiej się pojawiały.
+
+Jeśli popełnisz błąd, użyj przycisku COFNIJ,
+aby usunąć ostatnio wybraną literę.
+
+Gdy skończysz, kliknij ZATWIERDŹ.
+
+Naciśnij SPACJĘ, aby przejść dalej.
+---
+WAŻNE INFORMACJE
+
+• Odpowiadaj na równania tak dokładnie,
+  jak to możliwe – wymagana dokładność to 85%.
+  Przy niższym wyniku próba nie jest zaliczana.
+
+• Nie otrzymasz informacji zwrotnej
+  w trakcie próby – wyniki zobaczysz
+  dopiero po jej zakończeniu.
+
+• Między próbami przysługuje Ci
+  30-sekundowa przerwa.
+
+Naciśnij SPACJĘ, aby przejść dalej.
+---
+TRENING
+
+Zanim rozpocznie się właściwe badanie,
+przejdziesz przez 3 próby treningowe.
+
+Służą one wyłącznie do zapoznania się
+z działaniem programu.
+Wyniki treningu nie są wliczane do wyniku końcowego.
+
+Jeśli masz pytania, zadaj je teraz
+osobie prowadzącej badanie.
+
+Naciśnij SPACJĘ, aby rozpocząć trening.

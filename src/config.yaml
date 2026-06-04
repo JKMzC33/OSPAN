@@ -1,0 +1,132 @@
+letters:
+  pool: [F, H, J, K, L, N, P, C, R, S, T, G]
+
+timing:
+  equation_max: 10.0   # maks. czas na równanie (s)
+  letter_max:    5.0   # maks. czas wyświetlania litery (s)
+  blank_min:     0.200 # min. pusty ekran między bodźcami (s)
+  blank_max:     1.000 # maks. pusty ekran między bodźcami (s)
+  break_max:    30.0   # maks. czas przerwy między próbami (s)
+
+scoring:
+  math_threshold: 85   # wymagany % poprawności matematycznej
+
+data:
+  dir: data
+
+display:
+  fullscreen:   true   # ustaw false podczas testowania
+  background:   'black'
+  text_color:   'white'
+  text_height:   0.08
+  btn_color:    '#2a2a6a'  # normalny kolor przycisku
+  btn_hover:    '#5555cc'  # kolor po najechaniu kursorem
+  btn_selected: '#444488'  # kolor wybranego przycisku w recall
+
+equations:
+  # Dodawanie i odejmowanie
+  "2 + 3 = 5":  true
+  "4 + 1 = 6":  false
+  "7 - 2 = 5":  true
+  "3 + 4 = 8":  false
+  "6 - 1 = 5":  true
+  "5 + 2 = 8":  false
+  "8 - 3 = 5":  true
+  "2 + 6 = 9":  false
+  "9 - 4 = 5":  true
+  "7 + 3 = 9":  false
+  "8 - 5 = 3":  true
+  "4 + 6 = 9":  false
+  # Mnożenie
+  "3 × 4 = 12": true
+  "3 × 4 = 11": false
+  "2 × 6 = 12": true
+  "2 × 6 = 13": false
+  "5 × 3 = 15": true
+  "5 × 3 = 16": false
+  "4 × 4 = 16": true
+  "4 × 4 = 15": false
+  "2 × 7 = 14": true
+  "2 × 7 = 13": false
+  "3 × 5 = 15": true
+  "3 × 5 = 14": false
+  "6 × 3 = 18": true
+  "6 × 3 = 17": false
+  "4 × 5 = 20": true
+  "4 × 5 = 18": false
+  "7 × 2 = 14": true
+  "7 × 2 = 15": false
+  "3 × 6 = 18": true
+  "3 × 6 = 19": false
+  "8 × 2 = 16": true
+  "8 × 2 = 15": false
+  "5 × 4 = 20": true
+  "5 × 4 = 21": false
+  # Dzielenie
+  "10 : 2 = 5": true
+  "10 : 2 = 4": false
+  "9 : 3 = 3":  true
+  "9 : 3 = 4":  false
+  "8 : 4 = 2":  true
+  "8 : 4 = 3":  false
+  "6 : 2 = 3":  true
+  "6 : 2 = 4":  false
+  "8 : 2 = 4":  true
+  "8 : 2 = 3":  false
+  "6 : 3 = 2":  true
+  "6 : 3 = 3":  false
+  "10 : 5 = 2": true
+  "10 : 5 = 3": false
+  "4 : 2 = 2":  true
+  "4 : 2 = 3":  false
+  # Mnożenie z nawiasami
+  "(2 + 3) × 4 = 20": true
+  "(2 + 3) × 4 = 18": false
+  "(6 - 2) × 3 = 12": true
+  "(6 - 2) × 3 = 11": false
+  "3 × (2 + 4) = 18": true
+  "3 × (2 + 4) = 15": false
+  "(8 - 3) × 2 = 10": true
+  "(8 - 3) × 2 = 12": false
+  "4 × (7 - 3) = 16": true
+  "4 × (7 - 3) = 15": false
+  "(1 + 4) × 3 = 15": true
+  "(1 + 4) × 3 = 12": false
+  "2 × (9 - 4) = 10": true
+  "2 × (9 - 4) = 12": false
+  "(3 + 2) × 5 = 25": true
+  "(3 + 2) × 5 = 20": false
+  "(7 - 3) × 4 = 16": true
+  "(7 - 3) × 4 = 14": false
+  "6 × (5 - 3) = 12": true
+  "6 × (5 - 3) = 10": false
+  # Dzielenie z nawiasami
+  "(4 + 2) : 3 = 2":  true
+  "(4 + 2) : 3 = 3":  false
+  "(3 + 5) : 4 = 2":  true
+  "(3 + 5) : 4 = 3":  false
+  "(9 - 3) : 2 = 3":  true
+  "(9 - 3) : 2 = 4":  false
+  "(2 + 8) : 5 = 2":  true
+  "(2 + 8) : 5 = 3":  false
+  "(8 - 2) : 3 = 2":  true
+  "(8 - 2) : 3 = 3":  false
+  "(4 + 6) : 2 = 5":  true
+  "(4 + 6) : 2 = 4":  false
+  # Dodawanie/odejmowanie z nawiasami
+  "7 - (2 × 3) = 1":  true
+  "7 - (2 × 3) = 2":  false
+  "4 + (3 × 2) = 10": true
+  "4 + (3 × 2) = 9":  false
+  "9 - (4 - 1) = 6":  true
+  "9 - (4 - 1) = 7":  false
+  "(5 + 3) - 4 = 4":  true
+  "(5 + 3) - 4 = 5":  false
+  "2 + (8 : 4) = 4":  true
+  "2 + (8 : 4) = 5":  false
+  "10 - (3 + 4) = 3": true
+  "10 - (3 + 4) = 4": false
+  "(6 + 4) - 7 = 3":  true
+  "(6 + 4) - 7 = 4":  false
+  "5 + (9 : 3) = 8":  true
+  "5 + (9 : 3) = 9":  false
